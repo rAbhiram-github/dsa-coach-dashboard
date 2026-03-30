@@ -1,0 +1,7 @@
+packages:
+  "framer-motion": "Used for staggered grid animations, layout transitions, and interactive progress bars."
+images: []
+notes:
+  - "App uses static data for questions, no backend is needed."
+  - "State (completed questions, theme) is persisted using localStorage."
+  - "Custom syntax highlighting is implemented via basic CSS and pre/code tags as requested, without external libraries."

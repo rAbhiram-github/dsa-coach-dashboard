@@ -1,0 +1,112 @@
+You are an expert full-stack developer and DSA instructor.
+
+Your task is to build a complete, student-friendly dashboard website that teaches the TOP 50 DSA interview questions for placements.
+
+### 🎯 Goal
+
+Create a clean, modern, beginner-friendly web app that helps students understand DSA step-by-step.
+
+---
+
+## 📌 FEATURES REQUIRED
+
+### 1. Dashboard UI
+
+* Clean and modern design (use React + Tailwind CSS preferred)
+* Sidebar or navigation with categories:
+
+  * Arrays
+  * Strings
+  * Linked List
+  * Stack & Queue
+  * Trees
+  * Graphs
+  * Dynamic Programming
+* Each category contains relevant questions
+
+---
+
+### 2. For EACH Question, include:
+
+#### 🧠 Problem Section
+
+* Simple explanation (very easy English, beginner-friendly)
+* Example input/output
+* Real-world intuition (why this problem matters)
+
+#### ⚙️ Algorithm Section
+
+* Step-by-step explanation
+* No complex jargon
+* Use bullet points
+
+#### 💻 Code Section
+
+Provide:
+
+* Python code (clean, readable)
+* Java code (clean, readable)
+* Add comments explaining each step
+
+#### 🚀 Complexity
+
+* Time Complexity (simple explanation)
+* Space Complexity (simple explanation)
+
+---
+
+### 3. UX Requirements
+
+* Each question in a card layout
+* Expand/collapse for sections
+* Syntax highlighting for code
+* Copy code button
+* Search bar to find questions
+* Filter by difficulty (Easy / Medium / Hard)
+
+---
+
+### 4. Tech Requirements
+
+* Frontend: React + Tailwind CSS
+* No backend required (use static JSON data)
+* Well-structured components
+* Clean folder structure
+
+---
+
+### 5. Data
+
+* Include TOP 50 most asked DSA interview questions
+* Make sure they are commonly asked in placements
+
+---
+
+### 6. Teaching Style (VERY IMPORTANT)
+
+* Assume user is a beginner
+* Explain like teaching a 10-year-old
+* Avoid complicated terms
+* Use analogies where possible
+
+---
+
+### 7. Output Format
+
+Give:
+
+1. Full project structure
+2. All source code files
+3. Sample data (JSON with questions)
+4. Instructions to run the project
+
+---
+
+### 8. Bonus (if possible)
+
+* Add dark mode toggle
+* Add progress tracker (mark questions as done)
+
+---
+
+Make sure the final output is COMPLETE and can run directly without missing files.
