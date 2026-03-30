@@ -6,8 +6,10 @@ import {
   List, 
   TreeDeciduous, 
   Share2, 
-  Hash 
+  Hash,
+  MonitorCheck
 } from "lucide-react";
+import { Link } from "wouter";
 import {
   Sidebar,
   SidebarContent,
@@ -76,6 +78,24 @@ export function AppSidebar({ selectedCategory, onSelectCategory }: AppSidebarPro
       </SidebarHeader>
 
       <SidebarContent className="px-3 py-4">
+        <SidebarGroup>
+          <SidebarGroupLabel className="text-xs uppercase tracking-wider font-semibold text-muted-foreground px-3 mb-2">Resources</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <Link href="/cs-concepts">
+                  <SidebarMenuButton 
+                    className="rounded-xl h-11 hover-elevate transition-all"
+                  >
+                    <MonitorCheck className="h-4 w-4" />
+                    <span className="font-medium">CS Concepts</span>
+                  </SidebarMenuButton>
+                </Link>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
         <SidebarGroup>
           <SidebarGroupLabel className="text-xs uppercase tracking-wider font-semibold text-muted-foreground px-3 mb-2">Categories</SidebarGroupLabel>
           <SidebarGroupContent>
